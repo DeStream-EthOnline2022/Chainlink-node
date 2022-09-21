@@ -12,7 +12,7 @@ Built on [AWS Fargate](https://aws.amazon.com/fargate/?nc1=h_ls) using docker EC
 
 ## Requirements
 
-- **docker ecs cscontext** - Docker context for ECS integration
+- **docker ecs context** - Docker context for ECS integration
 - **Postgres DB** - Connection info to the DB
 - **ETH Node URL** - Infra or Alchemy or etc
 
