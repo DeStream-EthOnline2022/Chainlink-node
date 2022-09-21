@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  chainlink:
+    image:  # replace with your ecr image
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1024M
+    ports:
+      - target: 6688
+        published: 6688
+        protocol: tcp
+        x-aws-protocol: http
+    command: 
+      "chainlink local n -p /chainlink/.password -a /chainlink/.api"
