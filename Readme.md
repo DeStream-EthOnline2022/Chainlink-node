@@ -2,7 +2,7 @@
 
 Easily set up Chainlink Node on AWS Cloud.
 
-Built on [AWS Fargate](https://aws.amazon.com/fargate/?nc1=h_ls) using dockeECS integration.
+Built on [AWS Fargate](https://aws.amazon.com/fargate/?nc1=h_ls) using docker ECS integration.
 
 ## Prerequisites
 
