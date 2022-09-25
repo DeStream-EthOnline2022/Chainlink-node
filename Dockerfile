@@ -11,7 +11,7 @@ RUN mkdir -p /chainlink
 COPY ./data /chainlink
 
 # Replace with your own values
-# Ethereum node URL : e.g. ws:// from Infura or Alchemy
+# Ethereum node URL : e.g. ws:// from Infura or Alchemy of QucickNode
 # DATABASE_URL : e.g. postgres://postgres:password@postgres:5432/defaultdb
 ENV HOST=0.0.0.0 \
     ROOT=/chainlink \
